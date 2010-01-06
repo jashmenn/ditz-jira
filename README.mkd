@@ -3,9 +3,12 @@ ditz-jira
 
 ditz-jira - add jira syncing support for ditz
 
-[ditz](http://ditz.rubyforge.org/) - [ditz git repo](http://gitorious.org/ditz)
+**PRE-ALPHA** use at your own risk.
 
-**ALPHA** use at your own risk.
+## Requirements:
+
+* [ditz](http://ditz.rubyforge.org/) - [git repo](http://gitorious.org/ditz)
+* [jira4](http://docs.codehaus.org/display/JIRA4R) - [git repo](http://github.com/remi/jira4r)
 
 ## Commands added:
 
