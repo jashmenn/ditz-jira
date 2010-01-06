@@ -1,0 +1,20 @@
+ditz-jira
+=========
+
+ditz-jira - add jira syncing support for ditz
+
+[ditz](http://ditz.rubyforge.org/) - [ditz git repo](http://gitorious.org/ditz)
+
+**ALPHA** use at your own risk.
+
+## Commands added:
+
+     jira-init: initializes jira variables
+     jira-pull: does a jira pull
+
+## Usage: 
+   1. add a line "- jira" to the .ditz-plugins file in the project root
+   2. run ditz reconfigure, and enter the URL and credentials of your repo
+   3. jira-init?
+ 
+See: http://docs.atlassian.com/software/jira/docs/api/rpc-jira-plugin/latest/index.html?com/atlassian/jira/rpc/soap/JiraSoapService.html
